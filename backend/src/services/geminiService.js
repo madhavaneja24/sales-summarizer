@@ -20,7 +20,7 @@ function getClient() {
  */
 async function generateSummary(parsedData, filename) {
   const client = getClient();
-  const model = client.getGenerativeModel({ model: "gemini-1.5-flash" });
+  const model = client.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   const { headers, rowCount, stats, preview } = parsedData;
 
